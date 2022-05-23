@@ -19,7 +19,7 @@ const nearestTriplet = function (arr, target_sum) {
       ) {
         minDifference = currentDifference;
       }
-      if (currentSum - target_sum > 0) {
+      if (currentDifference > 0) {
         right--;
         while (left < right && arr[right] === arr[right + 1]) right--;
       } else {
@@ -29,5 +29,5 @@ const nearestTriplet = function (arr, target_sum) {
     }
   }
 
-  return target_sum - minDifference;
+  return target_sum + minDifference;
 };
