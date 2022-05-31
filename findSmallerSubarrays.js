@@ -32,5 +32,3 @@ const findSmallerSubarrays = (arr, target) => {
 
   return results;
 };
-
-console.log(findSmallerSubarrays([2, 5, 3, 10], 30));
