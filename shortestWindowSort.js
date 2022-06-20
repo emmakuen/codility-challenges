@@ -38,7 +38,7 @@ const shortestWindowSort = (arr) => {
   let subarrayMax = -Infinity;
   let subarrayMin = Infinity;
 
-  for (let i = left; i < right; i++) {
+  for (let i = left; i <= right; i++) {
     subarrayMax = Math.max(subarrayMax, arr[i]);
     subarrayMin = Math.min(subarrayMin, arr[i]);
   }
