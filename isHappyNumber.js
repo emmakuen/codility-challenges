@@ -21,6 +21,3 @@ const sumDigitSquares = (num) => {
   }
   return sum;
 };
-
-console.log(`${isHappyNumber(23)}`);
-console.log(`${isHappyNumber(12)}`);
