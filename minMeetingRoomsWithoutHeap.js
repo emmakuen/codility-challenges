@@ -52,7 +52,7 @@ const minMeetingRooms = (meetings) => {
     }
 
     // we need rooms for all active meetings
-    // so, currently needed rooms are larger than min rooms, update the min rooms
+    // so, if currently needed rooms are larger than min rooms, update the min rooms
     minRooms = Math.max(minRooms, currentRooms);
   }
 
