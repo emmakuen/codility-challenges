@@ -24,14 +24,6 @@ class Interval {
   }
 }
 
-class EmployeeInterval {
-  constructor(interval, employeeIndex, intervalIndex) {
-    this.interval = interval;
-    this.employeeIndex = employeeIndex;
-    this.intervalIndex = intervalIndex;
-  }
-}
-
 const findEmployeeFreeTime = (schedule) => {
   if (schedule === null || schedule.length === 0) return [];
   const freeTime = [];
